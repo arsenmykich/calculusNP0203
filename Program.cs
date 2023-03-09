@@ -35,7 +35,7 @@ class MainClass
                 //result = call_your_funtion;
                 break;
             case '/':
-                //result = call_your_funtion;
+                result = num1 / num2;
                 break;
             default:
                 Console.WriteLine("Invalid operator entered.");
