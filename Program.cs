@@ -2,6 +2,11 @@
 
 class MainClass
 {
+
+    static void printFirstDigit(int a)
+    {
+        Console.WriteLine(a);
+    }
     static void Main(string[] args)
     {
         // Read the first integer from the user
@@ -39,5 +44,6 @@ class MainClass
 
         // Display the result to the user
         Console.WriteLine("Result: " + result);
+        printFirstDigit(num1);
     }
 }
